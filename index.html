@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+		/>
+		<title>Chat Bat 🦇</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<h1 class="title">Chat Bat 🦇</h1>
+
+		<form class="flex">
+			<label for="cars">What can Chat Bat help you with today?</label>
+			<select name="cars" id="help-select">
+				<option value="">🦇</option>
+				<option value="pic">📸 See a bat pic</option>
+				<option value="question">❓ I have a bat question</option>
+			</select>
+			<input id="submit" type="submit" value="Submit" />
+		</form>
+
+		<p id="bat-response">... 🦇</p>
+		<div id="bat-results"></div>
+		<script type="module" src="index.js"></script>
+	</body>
+</html>
